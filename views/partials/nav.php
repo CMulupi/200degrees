@@ -28,15 +28,15 @@
   <!-- Bottom Navigation -->
   <nav class="row navbar navbar-expand-lg navbar-light bg-light" id="bottomNav">
     <div class="container-fluid">
-      <a class="navbar-brand col-3 display-4 fw-bold ms-4 " href="/">
+      <a class="navbar-brand col-3 display-4 fw-bold " href="/">
               200 DEGREES
       </a>
       
-      <button class="navbar-toggler mx-2" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
       <div class="col-9 justify-content-center collapse navbar-collapse mx-auto" id="navbarNav">
-        <ul class="navbar-nav ms-2">
+        <ul class="navbar-nav">
         <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="/">Home</a>
           </li>
@@ -45,10 +45,10 @@
           </li>
           
           <li class="nav-item">
-            <a class="nav-link" href="#">Commercial</a>
+            <a class="nav-link" href="/services/commercial">Commercial</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link " href="#" tabindex="-1" aria-disabled="true">Gallery</a>
+            <a class="nav-link " href="/gallery/photolist" tabindex="-1" aria-disabled="true">Photo Gallery</a>
           </li>
         </ul>
       </div>

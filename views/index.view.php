@@ -54,7 +54,9 @@
             <a href="/services/residential">
                 <div class="cta-cleaning-category residential">Residential</div>
             </a>
-            <div class="cta-cleaning-category commercial">Commercial</div>
+            <a href="/services/commercial">
+                <div class="cta-cleaning-category commercial">Commercial</div>
+            </a>
         </div>
     </div>
     <div class="row  mt-5 pt-5">

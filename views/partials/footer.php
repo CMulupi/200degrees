@@ -11,9 +11,9 @@
             <div class="col-md-3">
                 <h6>Navigation</h6>
                 <ul class="footer-links">
-                    <li><a href="#">Services</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Pricing</a></li>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/services/residential">Residential</a></li>
+                    <li><a href="/services/commercial">Commercial</a></li>
                     <li><a href="#">FAQ</a></li>
                     <li><a href="#">Blog</a></li>
                     <li><a href="#">Contact</a></li>

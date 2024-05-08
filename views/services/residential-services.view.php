@@ -7,7 +7,7 @@
             Residential Cleaning Services
         </h4>
     </div>
-    <div class="residential-valueproposition row px-3">
+    <div class="residential-valueproposition row p-3">
         <div class="col-md-3 eco-ico  py-3 d-flex flex-column align-items-center d-md-block">
             <img src="../assets/images/universal-access-regular-24.png" alt="" srcset="">
             <h4 class="lead fw-bolder fs-4">Green Cleaning</h4>
@@ -22,7 +22,7 @@
         </div>
         <div class="col-md-3 eco-ico  py-3 d-flex flex-column align-items-center d-md-block">
             <img src="../assets/images/universal-access-regular-24.png" alt="" srcset="">
-            <h4 class="lead fw-bolder fs-4">Same Cleaner Every Time</h4>
+            <h4 class="lead fw-bolder fs-4">Same Cleaner Each Time</h4>
             <p>Who does not like long lasting relationships?</p>
         </div>
         <div class="col-md-3 eco-ico  py-3 d-flex flex-column align-items-center d-md-block">

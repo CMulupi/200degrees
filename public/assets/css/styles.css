@@ -18,7 +18,7 @@
     --paragraph-color:#6b6b6b;
   }
   
-  body {
+  body, html{
     font-family: 'Poppins', sans-serif;
     background: white;
     color:var(--light-grey);
@@ -43,7 +43,7 @@
   h4,
   h5,
   h6 {
-    font-family: "Nunito", sans-serif;
+    font-family: "Poppins", sans-serif;
     margin: 0;
   }
   
@@ -959,4 +959,70 @@ video {
     text-align: center;
   }
   
+}
+
+
+/* ----------------------------------------Commercial--------------------------- */
+.commercial-ban2{
+  background-color: var(--blue200deg);
+}
+.commercial-ban2 .tagline1{
+  color:var(--very-light-grey);
+  font-weight: 600;
+}
+.card{
+  background-color: rgb(234, 234, 187);
+}
+.card a{
+  color: var(--blue200deg-dark);
+  margin-top: 1rem;
+  text-decoration: underline;
+  display: block;
+}
+
+.card h5{
+  font-weight: bolder;
+  color: var(--blue200deg-dark);
+
+}
+
+
+.commercial-ban3{
+  min-height: 20rem;
+  object-fit: cover;
+}
+
+.commercial-ban3 img{
+  width: 100%;
+  height: 100%;  
+}
+
+.commercial-ban3 h4{
+  color: var(--blue200deg-dark);
+}
+
+/* --------------------Commercial------------------------------ */
+
+.gallery{
+  background-color: var(--very-light-grey);
+}
+.gallery-card {
+  margin-bottom: 20px;
+
+}
+.gallery-card .card{
+  background-color: var(--light);
+  padding-top: 0;
+  min-height: 400px;
+}
+.card-img-top {
+  height: 200px; /* Adjust as needed */
+  object-fit: cover;
+}
+
+.gallery-img {
+  background-size: cover; /* Scale the background image to cover the entire container */
+  background-position: center; /* Center the background image within the container */
+  width: 100%; /* Ensure the background image fills the entire container */
+  height: 100%; /* Ensure the background image fills the entire container */
 }
