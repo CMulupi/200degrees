@@ -1,9 +1,8 @@
 <?php
 
-function dd($value)
-{
+function dd($value){
     echo "<pre>";
-        var_dump($value);
+    var_dump($value);
     echo "</pre>";
     die();
 }
@@ -12,8 +11,14 @@ function base_path($path){
     return BASE_PATH . $path;
 }
 
-function view($viewname, $params =[]){
+function view($path, $params = []){
     extract($params);
-    
-return require base_path("views/{$viewname}");
+
+    return require base_path('views/') . $path;
+
+}
+
+function loadPartial($partial,$params = []){
+    extract ($params);
+   return require base_path('views/partials/') . $partial;
 }
