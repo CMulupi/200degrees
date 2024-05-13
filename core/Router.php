@@ -6,6 +6,7 @@ class Router {
    protected $routes=[];
 
    public function get($uri,$controller){
+    
     $this->routes[]=[
         'uri' => $uri,
         'controller' => $controller,
@@ -34,9 +35,10 @@ class Router {
     ];
    }
    public function routeToController($uri,$method){
+
     foreach($this->routes as $route){
-            if($route['uri'] ===$uri && $route['method'] === $method){
-                return require base_path("{$route['controller']}");
+            if($route['uri'] === $uri && $route['method'] === $method){
+                return require "{$route['controller']}";
             }
     }
     //if execution gets to this point then route not found

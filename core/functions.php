@@ -8,7 +8,7 @@ function dd($value){
 }
 
 function base_path($path){
-    return BASE_PATH . $path;
+    return $path;
 }
 
 function view($path, $params = []){
